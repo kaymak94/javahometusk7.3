@@ -31,6 +31,7 @@
 
 
     <build>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -116,16 +117,15 @@
                 </configuration>
                 <executions>
                     <execution>
-                        <id>verify</id>
                         <phase>verify</phase>
                         <goals>
                             <goal>check</goal>
                         </goals>
                     </execution>
-
                 </executions>
             </plugin>
-        </plugins>
-    </build>
 
+        </plugins>
+
+    </build>
 </project>
